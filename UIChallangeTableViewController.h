@@ -1,5 +1,5 @@
 //
-//  DUKViewController.h
+//  UIChallangeTableViewController.h
 //  UITableViewController Challenge Solution
 //
 //  Created by Matthias Drews on 08.04.14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DUKViewController : UIViewController
+@interface UIChallangeTableViewController : UITableViewController
 
 @end

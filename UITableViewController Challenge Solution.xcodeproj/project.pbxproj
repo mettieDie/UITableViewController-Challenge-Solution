@@ -14,13 +14,13 @@
 		22108F0918F3F5C100B10DB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22108F0818F3F5C100B10DB2 /* main.m */; };
 		22108F0D18F3F5C100B10DB2 /* DUKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22108F0C18F3F5C100B10DB2 /* DUKAppDelegate.m */; };
 		22108F1018F3F5C100B10DB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22108F0E18F3F5C100B10DB2 /* Main.storyboard */; };
-		22108F1318F3F5C100B10DB2 /* DUKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22108F1218F3F5C100B10DB2 /* DUKViewController.m */; };
 		22108F1518F3F5C100B10DB2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22108F1418F3F5C100B10DB2 /* Images.xcassets */; };
 		22108F1C18F3F5C200B10DB2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22108F1B18F3F5C200B10DB2 /* XCTest.framework */; };
 		22108F1D18F3F5C200B10DB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22108EFC18F3F5C100B10DB2 /* Foundation.framework */; };
 		22108F1E18F3F5C200B10DB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22108F0018F3F5C100B10DB2 /* UIKit.framework */; };
 		22108F2618F3F5C200B10DB2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22108F2418F3F5C200B10DB2 /* InfoPlist.strings */; };
 		22108F2818F3F5C200B10DB2 /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22108F2718F3F5C200B10DB2 /* UITableViewController_Challenge_SolutionTests.m */; };
+		22108F3318F3F68D00B10DB2 /* UIChallangeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22108F3218F3F68D00B10DB2 /* UIChallangeTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		22108F0B18F3F5C100B10DB2 /* DUKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DUKAppDelegate.h; sourceTree = "<group>"; };
 		22108F0C18F3F5C100B10DB2 /* DUKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DUKAppDelegate.m; sourceTree = "<group>"; };
 		22108F0F18F3F5C100B10DB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		22108F1118F3F5C100B10DB2 /* DUKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DUKViewController.h; sourceTree = "<group>"; };
-		22108F1218F3F5C100B10DB2 /* DUKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DUKViewController.m; sourceTree = "<group>"; };
 		22108F1418F3F5C100B10DB2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		22108F1A18F3F5C200B10DB2 /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22108F1B18F3F5C200B10DB2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		22108F2318F3F5C200B10DB2 /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		22108F2518F3F5C200B10DB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		22108F2718F3F5C200B10DB2 /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		22108F3118F3F68D00B10DB2 /* UIChallangeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIChallangeTableViewController.h; path = ../UIChallangeTableViewController.h; sourceTree = "<group>"; };
+		22108F3218F3F68D00B10DB2 /* UIChallangeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIChallangeTableViewController.m; path = ../UIChallangeTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,9 +114,9 @@
 			children = (
 				22108F0B18F3F5C100B10DB2 /* DUKAppDelegate.h */,
 				22108F0C18F3F5C100B10DB2 /* DUKAppDelegate.m */,
+				22108F3118F3F68D00B10DB2 /* UIChallangeTableViewController.h */,
+				22108F3218F3F68D00B10DB2 /* UIChallangeTableViewController.m */,
 				22108F0E18F3F5C100B10DB2 /* Main.storyboard */,
-				22108F1118F3F5C100B10DB2 /* DUKViewController.h */,
-				22108F1218F3F5C100B10DB2 /* DUKViewController.m */,
 				22108F1418F3F5C100B10DB2 /* Images.xcassets */,
 				22108F0318F3F5C100B10DB2 /* Supporting Files */,
 			);
@@ -250,7 +250,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22108F1318F3F5C100B10DB2 /* DUKViewController.m in Sources */,
+				22108F3318F3F68D00B10DB2 /* UIChallangeTableViewController.m in Sources */,
 				22108F0918F3F5C100B10DB2 /* main.m in Sources */,
 				22108F0D18F3F5C100B10DB2 /* DUKAppDelegate.m in Sources */,
 			);
